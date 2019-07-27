@@ -1,5 +1,5 @@
 body{
-    background-color: orange;
+    background-color: #ff8800;
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -18,9 +18,11 @@ body{
 
 #homediv{
     height: 100vh;
-
+    width: 100%;
+    background-color: orange;
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 
 #desc{
@@ -28,3 +30,16 @@ body{
     text-align: left;
     color: white;
 }
+
+#sliderdiv{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top:0;
+    right:80vw;
+    transition:left 1s ease-in-out;
+    z-index: 10;
+}
+
+
