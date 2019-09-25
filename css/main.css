@@ -50,9 +50,18 @@ body{
 }
 
 .underline {
-    
     width: 100%;
     border-bottom: 2px solid white;
+    display: table-cell;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 3px;
+}
+
+.underlinetxt{
+    display: table-cell;
+    width: auto;
 }
 
 
